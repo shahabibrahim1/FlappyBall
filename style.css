@@ -1,0 +1,394 @@
+body {
+    max-width: 100%;
+    margin: auto;
+    background-color: grey;
+} 
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.main-div {
+    text-align: center;
+}
+
+.mainh1 {
+    color:  white;
+    position: fixed;
+    margin: 0;
+}
+
+canvas {
+    background-color: white;
+    display: inline-block;
+}
+ 
+
+.hide {
+    display: none;
+}
+
+
+/* Flappy death DIV */
+
+.deathdiv {
+    width: 200px;
+    background-color: rgb(255, 255, 255, 0);
+    padding-bottom: 25px;
+    font-family: 'VT323', monospace;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+p, h1, button {
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.score {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.flappyrestart {
+    width: 90px;
+    height: 35px;
+    background-color: green;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.scorekeeper {
+    font-size: 22px;
+}
+/*  */
+
+
+/*applying darkmode*/
+.darkmodediv {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255, .8);
+    padding-bottom: 25px;
+    position: absolute;
+    font-family: 'VT323', monospace;
+    margin-top: -600px;
+    margin-left: -140px;
+    border-radius: 15px;
+}
+
+.ballcolor {
+    color: black;
+    font-size: 20px;
+}
+
+#colorpicker {
+    border: 1px solid white;
+}
+
+.space-start {
+    color: white; 
+    font-size: 30px; 
+    position: absolute; 
+    top:95%; 
+    left: 50%; 
+    /* Since the p tag moving point is its top-left corner when need to translate it to the center so it can be put in
+    the middle
+    in the 
+     */
+    transform: translate(-50%, -50%);
+}
+
+#resetScore {
+    display: block;
+    margin: auto;
+    background-color: green;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

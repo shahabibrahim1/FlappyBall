@@ -1,0 +1,64 @@
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+button {
+    cursor: pointer;
+}
+
+p, button {
+    font-family: 'VT323', monospace;
+    text-align: center;
+}
+
+
+.intro {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    padding: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.play-btn {
+    display: block;
+    margin: auto;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.btn-div, .color-div {
+    display: inline-block;
+    width: 49%;
+}
+
+.ballcolor, .mode-p {
+    font-size: 20px;
+}
+
+.mode-btn, #darkmode, #regular, #reset {
+    background-color: orange;
+    font-size: 17px;
+}
+
+#play-btn {
+    width: 90px;
+    height: 35px;
+    background-color: green;
+    margin-top: 40px;
+    font-size: 25px;
+}
+

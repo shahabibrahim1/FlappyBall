@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+  <!--Head Tag is for all elements that are not visible on our page-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAPPY BALL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="intro.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 class="mainh1">Flappy Ball</h1>
+    <div class="main-div">
+      <div class = 'intro' id="intro">
+        <h1>Welcome to Flappy Ball!</h1>
+        <div class = 'options'>
+            <div class="btn-div">
+                <p class="mode-p">Difficulty:</p>
+                <button id="regular" class="mode-btn">Regular</button>
+                <button id="hard" class="mode-btn">Hard</button>
+            </div>
+            
+            <div class="color-div">
+                <p class="ballcolor">Ball Color: </p>
+                <input id="colorpicker" type="color">
+                <button id= 'reset'>RESET</button>
+            </div>
+        </div>
+
+
+        <button id = 'play-btn'>PLAY</button>
+      </div>
+      <canvas id="flappyCanvas"></canvas>
+      <p class="space-start"></p>
+    
+      <!-- After flappy death -->
+      <div id="flappyhide" class="hide">
+        <div id="flappydeath" class="deathdiv">
+          <h1 class="deathh1">Game Over</h1>
+            <div class="score">
+              <p style="display: inline-block; padding-right: 10px;" class="scorekeeper">Best: <br> <span id="highscore"></span></p>
+              <p style="display: inline-block; " class="scorekeeper">Score: <br> <span id="score"> 0 </span></p>
+              <button id="resetScore">Reset Score</button>
+              <p>Want to Play Again? <br> Press RESTART</p>
+            </div>
+            <button class="flappyrestart" onclick="location.reload()">RESTART</button>
+        </div>
+      </div>  
+
+    <!-- Flappy Script -->
+  </div>
+  <script src="flappy.js"></script>
+  </body>
+</html>
+
