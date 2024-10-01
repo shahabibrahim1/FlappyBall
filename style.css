@@ -110,8 +110,8 @@ h1 {
 .space-start {
     color: white; 
     font-size: 30px; 
-    position: absolute; 
-    top:95%; 
+    position: fixed; 
+    top: 75%; 
     left: 50%; 
     /* Since the p tag moving point is its top-left corner when need to translate it to the center so it can be put in
     the middle
