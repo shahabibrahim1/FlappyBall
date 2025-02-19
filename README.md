@@ -16,11 +16,13 @@ Flappy Ball is a simple browser-based game inspired by the classic Flappy Bird. 
 - **Responsive Design:** Works on different screen sizes.
 
 ## 📂 Project Structure
-📁 FlappyBall │
-── flappyBall.html # Main game page │
-── flappy.js # Game logic and mechanics │
-── style.css # Main styles for layout │
-── intro.css # Styles for the intro screen
+The project consists of the following files:
+
+- **flappyBall.html** → Main HTML file containing the game layout and UI elements.
+- **flappy.js** → JavaScript file that handles game mechanics, physics, and interactions.
+- **style.css** → Main stylesheet for game design, including layout, colors, and animations.
+- **intro.css** → Additional styles specifically for the introduction screen and buttons.
+
 
 ## 🛠️ Technologies Used
 - **HTML5 Canvas** for game rendering
